@@ -16,12 +16,15 @@ Assignment 1 for CMSC-203
 Calculate the Temperature (in Fahrenheit) and Wind Speed (in mph) to figure out the Wind Chill. The assignment required the variables to remain between the Minimum and Maximum values, otherwise the test will fail.
 
 ## Section 2: Screenshots
-Images coming soon...
+
+https://github.com/wbnicholas1999/Wind-Chill/blob/master/CmdLine_output.jpg?raw=true
+https://github.com/wbnicholas1999/Wind-Chill/blob/master/Eclipse_console_output.jpg?raw=true
 
 ## Section 3: Behind the Scenes
 Calculating for the Wind Chill temperature was quite a challenge to start with; my first attempt for exponents was like “(windSpeed)^(0.16)”, and it doesn’t work with Java (and I’m pretty sure it doesn’t work with other coding programs too). I did some research to figure out exponents until I found “Math.pow()” [1], I tried that and it worked, and it was pretty much a simple way. Organizing the if and else commands was like solving some puzzle; I originally wanted to program to end if the temperature exceeds the minimum or maximum value, but it wouldn’t be fair for the programmer to continue, so I let the programmer input the temperature and wind speed to calculate the “Wind Chill temperature” and allow the program to let anyone know if the test succeeded or failed.
 
-Images coming soon...
+https://github.com/wbnicholas1999/Wind-Chill/blob/master/Screenshot1.png?raw=true
+https://github.com/wbnicholas1999/Wind-Chill/blob/master/Screenshot2.png?raw=true
 
 Wind Chill Test Table:
 
@@ -42,7 +45,7 @@ Wind speed = 18
 Math.pow((18), 0.16)
 
 ## Section 6: Filename
-Windows: filename_for_windows
+Windows: https://github.com/wbnicholas1999/Wind-Chill/blob/master/WindChill.java
 
 I apologize Linux and Mac users.
 
